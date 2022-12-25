@@ -41,3 +41,4 @@ for qty, id, desc in records:
 document.add_page_break()
 
 document.save('assets/demo.docx')
+print('Success')

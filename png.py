@@ -1,5 +1,5 @@
 from PIL import Image
-filename = "buildings.png"
+filename = "assets/building.png"
 with Image.open(filename) as img:
     img.load()
 

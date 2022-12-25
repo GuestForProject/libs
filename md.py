@@ -1,6 +1,5 @@
 from python_md import Markdown
 
-
 md = Markdown('assets/examples.md')
 content = md.h1('simple python-md example')
 header = ['this', 'is', 'a', 'table', 'header']
@@ -11,3 +10,4 @@ body = [
 ]
 content += md.table(header, body)
 md.write_to_file(content, 'w+')
+print('Success')
